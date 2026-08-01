@@ -199,7 +199,7 @@ function FooterSection() {
               "
               >
                 <Mail className="text-cyan-400" size={20} />
-                hello@tiyutech.com
+                tiyumbanazeeru@gmail.com
               </p>
 
               <p
@@ -238,7 +238,7 @@ function FooterSection() {
           </p>
 
           <Link
-            href="#"
+            href="#hero"
             className="
             flex
             items-center
