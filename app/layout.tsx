@@ -12,17 +12,120 @@ export const bitcount = Bitcount({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
+  creator: "Tiyu Tech Solutions",
+  publisher: "Tiyu Tech Solutions",
+  category: "Technology, Web Development, Digital Marketing",
   title: "Tiyu Tech Solutions",
   keywords: [
-    "web development",
-    "UI design",
-    "Graphic Design",
-    "Social Media Marketing",
+    // Brand Keywords
     "Tiyu Tech Solutions",
-    "Website Development in Tamale",
-    "UI Design in Tamale",
-    "Graphic Design in Tamale",
-    "Social Media Marketing in Tamale",
+    "Tiyu Tech Solutions Ghana",
+    "Tiyu Tech Solutions Tamale",
+    "Tiyu Technologies",
+    "Tiyu Web Development",
+
+    // Web Development
+    "web development",
+    "website development",
+    "professional website development",
+    "custom website development",
+    "modern website design",
+    "responsive website development",
+    "full stack web development",
+    "frontend development",
+    "backend development",
+    "React developer",
+    "Next.js developer",
+    "TypeScript developer",
+    "web application development",
+    "business website development",
+
+    "school website development",
+    "hotel website development",
+
+    // Location Based Web Development
+    "web development in Tamale",
+    "website development in Tamale",
+    "website designer in Tamale",
+    "web developer in Tamale",
+    "best web developer in Tamale",
+    "website design company in Tamale",
+    "web design company Ghana",
+    "web developer Ghana",
+    "website developers Ghana",
+    "professional website designer Ghana",
+
+    // UI/UX Design
+    "UI design",
+    "UX design",
+    "UI UX design",
+    "mobile app UI design",
+    "website UI design",
+    "modern user interface design",
+    "Figma UI design",
+    "landing page design",
+    "dashboard UI design",
+
+    // Location Based UI Design
+    "UI design in Tamale",
+    "UX designer in Tamale",
+    "UI UX designer Ghana",
+    "Figma designer Ghana",
+    "website interface designer Tamale",
+
+    // Graphic Design
+    "graphic design",
+    "professional graphic design",
+    "brand identity design",
+    "logo design",
+    "business branding",
+    "social media graphics",
+    "marketing graphics",
+    "poster design",
+    "flyer design",
+    "creative graphic designer Ghana",
+
+    // Location Based Graphic Design
+    "graphic design in Tamale",
+    "graphic designer in Tamale",
+    "logo designer Tamale",
+    "branding company Tamale",
+    "graphic design company Ghana",
+
+    // Digital Marketing
+    "social media marketing",
+    "digital marketing",
+    "online marketing",
+    "social media management",
+    "content creation",
+    "Facebook marketing",
+    "Instagram marketing",
+    "TikTok marketing",
+    "business promotion Ghana",
+
+    // Location Based Marketing
+    "social media marketing in Tamale",
+    "digital marketing agency Tamale",
+    "social media manager Ghana",
+    "marketing agency Tamale",
+
+    // Business Intent Keywords
+    "website for small business",
+    "website developer for businesses",
+    "affordable website design Ghana",
+    "cheap website development Ghana",
+    "website maintenance Ghana",
+    "website redesign services",
+    "hire web developer Ghana",
+    "hire website designer Tamale",
+
+    // Tech Stack Authority Keywords
+    "React developer Ghana",
+    "Next.js developer Ghana",
+    "Tailwind CSS developer",
+    "Supabase developer",
+    "Node.js developer Ghana",
+    "modern web technologies",
   ],
   description:
     "Tiyu Tech Solutions is a tech company in Tamale Ghana that provides web development, UI design,Graphic Design/Printing and social media marketing services.",
