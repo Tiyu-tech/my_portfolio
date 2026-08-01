@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 import { Mail, MessageCircle, User, Briefcase } from "lucide-react";
 
