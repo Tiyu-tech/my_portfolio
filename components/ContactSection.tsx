@@ -249,7 +249,8 @@ ${formData.message}
               w-full
               bg-cyan-500
               py-6
-              text-lg
+              text-md
+              font-bold
               text-black
               hover:bg-cyan-400
               "
