@@ -5,8 +5,8 @@ function AboutSection() {
     <section
       className={`${roboto.className} min-h-screen bg-gradient-to-b  from-slate-950 to-slate-900 flex-col items-center px-6`}
     >
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-white">About Me</h2>
+      <div className="max-w-4xl mx-auto text-center p-3">
+        <h2 className="text-4xl md:text-5xl font-bold text-white ">About Me</h2>
 
         <div className="w-24 h-1 bg-cyan-400 rounded-full mx-auto mt-5" />
 

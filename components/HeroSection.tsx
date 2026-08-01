@@ -32,7 +32,7 @@ function HeroSection() {
           <h1 className="text-5xl font-extrabold leading-tight text-white md:text-7xl">
             Helping Businesses and People
             <br />
-            Stand Out
+            Stand Out.
             <span className="text-cyan-400"> Online.</span>
           </h1>
 
