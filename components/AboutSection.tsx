@@ -1,4 +1,3 @@
-"use client";
 import { roboto } from "@/app/layout";
 import TechnologyMarquee from "./TechnologyMarquee";
 function AboutSection() {

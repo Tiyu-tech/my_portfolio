@@ -238,7 +238,7 @@ function FooterSection() {
           </p>
 
           <Link
-            href="#hero"
+            href={"#hero-section"}
             className="
             flex
             items-center
