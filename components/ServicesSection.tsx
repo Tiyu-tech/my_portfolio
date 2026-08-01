@@ -1,3 +1,4 @@
+"use client";
 import {
   Code2,
   Palette,
