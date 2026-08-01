@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   creator: "Tiyu Tech Solutions",
   publisher: "Tiyu Tech Solutions",
   category: "Technology, Web Development, Digital Marketing",
-  title: "Tiyu Tech Solutions",
+  title:
+    "Tiyu Tech Solutions | Web Development, UI Design & Digital Marketing in Tamale Ghana",
   keywords: [
     // Brand Keywords
     "Tiyu Tech Solutions",
@@ -128,7 +129,7 @@ export const metadata: Metadata = {
     "modern web technologies",
   ],
   description:
-    "Tiyu Tech Solutions is a tech company in Tamale Ghana that provides web development, UI design,Graphic Design/Printing and social media marketing services.",
+    "Tiyu Tech Solutions builds modern websites, web applications, UI designs, graphics and digital marketing solutions for businesses in Tamale, Ghana. We help brands grow online with professional websites and creative technology solutions.",
 };
 
 export default function RootLayout({
