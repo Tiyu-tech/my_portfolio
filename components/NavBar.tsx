@@ -42,13 +42,14 @@ function NavBar() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href={"/"}>
+          <Link href={"#services"}>
             {" "}
             <NavBtn>Services</NavBtn>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href={"/"}>
+          <Link href={"#about"}>
+            {" "}
             <NavBtn>About</NavBtn>
           </Link>
         </NavigationMenuItem>
