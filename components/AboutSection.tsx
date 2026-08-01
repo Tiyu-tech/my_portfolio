@@ -1,9 +1,9 @@
 import { roboto } from "@/app/layout";
-
+import TechnologyMarquee from "./TechnologyMarquee";
 function AboutSection() {
   return (
     <section
-      className={`${roboto.className} min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 flex items-center px-6`}
+      className={`${roboto.className} min-h-screen bg-gradient-to-b  from-slate-950 to-slate-900 flex-col items-center px-6`}
     >
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white">About Me</h2>
@@ -22,6 +22,9 @@ function AboutSection() {
           not only look great but also help clients reach more customers and
           grow their businesses.
         </p>
+      </div>
+      <div className="marquee-container">
+        <TechnologyMarquee />
       </div>
     </section>
   );
