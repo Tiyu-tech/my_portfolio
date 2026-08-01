@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import TypingComponent from "./TypeWriter";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -46,20 +47,26 @@ function HeroSection() {
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4 lg:justify-start">
-            <Button
-              size="lg"
-              className="bg-cyan-500 px-8 py-6 text-lg hover:bg-cyan-600"
-            >
-              View My Work
-            </Button>
+            <Link href="#work">
+              {" "}
+              <Button
+                size="lg"
+                className="bg-cyan-500 px-8 py-6 text-lg hover:bg-cyan-600"
+              >
+                View My Work
+              </Button>{" "}
+            </Link>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white bg-white/10 px-8 py-6 text-lg text-white backdrop-blur-md hover:bg-white hover:text-slate-900"
-            >
-              Contact Me
-            </Button>
+            <Link href={"#contact"}>
+              {" "}
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white bg-white/10 px-8 py-6 text-lg text-white backdrop-blur-md hover:bg-white hover:text-slate-900"
+              >
+                Contact Me
+              </Button>
+            </Link>
           </div>
 
           <div className="mt-12 flex justify-center gap-10 text-center lg:justify-start">
