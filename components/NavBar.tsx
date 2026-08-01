@@ -18,7 +18,21 @@ function NavBtn({ children }: { children: React.ReactNode }) {
 function NavBar() {
   return (
     <NavigationMenu
-      className={` ${roboto.className}  bg-transparent backdrop-blur-3xl fixed top-0 right-0 z-100 min-w-dvw  flex justify-between`}
+      className={`${roboto.className}
+    fixed
+    top-4
+    left-1/2
+    -translate-x-1/2
+    z-50
+    h-14
+    bg-transparent
+    backdrop-blur-3xl
+    rounded-full
+    min-w-100
+    px-4
+    flex
+    justify-between
+  `}
     >
       <NavigationMenuList>
         <NavigationMenuItem>
