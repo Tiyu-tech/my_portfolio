@@ -9,7 +9,9 @@ function AboutSection() {
         <h2 className="text-4xl md:text-5xl font-bold text-white ">About Me</h2>
 
         <div className="w-24 h-1 bg-cyan-400 rounded-full mx-auto mt-5" />
-
+        <h2 className="text-2xl md:text-3xl font-bold text-white mt-5">
+          <b className="text-cyan-400"> Name:</b> Nazeeru Abdul-Hamid Tiyumba
+        </h2>
         <p className="mt-8 text-lg md:text-xl leading-9 text-slate-300">
           I&apos;m a passionate web developer helping businesses and individuals
           establish a strong online presence through{" "}
