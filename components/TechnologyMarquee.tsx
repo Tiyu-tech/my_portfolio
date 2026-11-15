@@ -47,7 +47,7 @@ export default function TechnologyMarquee() {
         Technologies I Use
       </h5>
 
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded-full">
         <div className="flex w-max animate-marquee gap-6">
           {[...technologies, ...technologies].map((tech, index) => {
             const Icon = tech.icon;
