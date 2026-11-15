@@ -12,12 +12,15 @@ function HeroSection() {
       {/* Background */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" />
       <video
-        src="/moving-purple-shit.mp4"
         autoPlay
         loop
         muted
+        playsInline
+        preload="auto"
         className="absolute inset-0 h-full w-full object-cover"
-      />
+      >
+        <source src="/moving-purple-shit.mp4" type="video/mp4" />
+      </video>
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-slate-900/45 backdrop-brightness-75" />
 
