@@ -165,6 +165,7 @@ function ServicesSection() {
                     mt-5
                     text-xl
                     text-white
+                    font-black
                     "
                   >
                     {service.title}
@@ -176,6 +177,9 @@ function ServicesSection() {
                     className="
                   leading-7
                   text-slate-400
+                  font-serif
+                  italic
+                  font-semibold
                   "
                   >
                     {service.description}
