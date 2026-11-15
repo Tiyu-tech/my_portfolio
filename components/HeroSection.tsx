@@ -10,14 +10,14 @@ function HeroSection() {
       id="hero-section"
     >
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRlNzcwbTlqeWh1a2ZvZzdtaXFtMzNtNGsxc3Q4Z2htYXhkcHg5YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9IgC2RzpbE7vBZ6M/giphy.gif')",
-        }}
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" />
+      <video
+        src="/moving-purple-shit.mp4"
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 h-full w-full object-cover"
       />
-
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-slate-900/45 backdrop-brightness-75" />
 
