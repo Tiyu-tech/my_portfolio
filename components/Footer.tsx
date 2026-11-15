@@ -1,8 +1,12 @@
 import { Mail, MapPin, Phone, ArrowUp } from "lucide-react";
-import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 
 function FooterSection() {
+  const socialLinks = [
+    { name: "GitHub", Icon: FaGithub, href: "https://github.com/tiyu-tech" },
+    { name: "Twitter", Icon: FaTwitter, href: "https://x.com/_Tiyufx_" },
+  ];
   return (
     <footer className="relative overflow-hidden bg-slate-950 px-6 pt-20">
       {/* Glow */}
@@ -61,31 +65,18 @@ function FooterSection() {
             gap-3
             "
             >
-              {[FaGithub, FaLinkedin, FaFacebook, FaInstagram].map(
-                (Icon, index) => (
-                  <Link
-                    key={index}
-                    href="#"
-                    className="
-                  flex
-                  h-10
-                  w-10
-                  items-center
-                  justify-center
-                  rounded-full
-                  border
-                  border-white/10
-                  bg-white/5
-                  text-slate-300
-                  transition
-                  hover:border-cyan-400
-                  hover:text-cyan-400
-                  "
-                  >
-                    <Icon size={18} />
-                  </Link>
-                ),
-              )}
+              {socialLinks.map(({ name, Icon, href }) => (
+                <Link
+                  key={name}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={name}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition hover:border-cyan-400 hover:text-cyan-400"
+                >
+                  <Icon size={18} />
+                </Link>
+              ))}
             </div>
           </div>
 
