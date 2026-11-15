@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto, Bitcount } from "next/font/google";
+import {
+  Roboto,
+  Bitcount,
+  Mona_Sans,
+  BBH_Bogle,
+  Space_Grotesk,
+} from "next/font/google";
 import "./globals.css";
 
 export const roboto = Roboto({
@@ -8,6 +14,18 @@ export const roboto = Roboto({
 });
 //bitcount google font import
 export const bitcount = Bitcount({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
+export const mona_sans = Mona_Sans({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
+export const bbh_bogle = BBH_Bogle({
+  weight: ["400", "400"],
+  subsets: ["latin"],
+});
+export const space_grotesk = Space_Grotesk({
   weight: ["400", "700"],
   subsets: ["latin"],
 });

@@ -2,11 +2,11 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import TypingComponent from "./TypeWriter";
 import Link from "next/link";
-
+import { roboto, mona_sans, space_grotesk } from "@/app/layout";
 function HeroSection() {
   return (
     <section
-      className="relative min-h-screen overflow-hidden"
+      className={`relative min-h-screen overflow-hidden ${space_grotesk.className}`}
       id="hero-section"
     >
       {/* Background */}
