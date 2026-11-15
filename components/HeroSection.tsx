@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import TypingComponent from "./TypeWriter";
 import Link from "next/link";
-import { roboto, mona_sans, space_grotesk } from "@/app/layout";
+import { space_grotesk } from "@/app/layout";
 function HeroSection() {
   return (
     <section

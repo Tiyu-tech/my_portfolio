@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Roboto,
-  Bitcount,
-  Mona_Sans,
-  BBH_Bogle,
-  Space_Grotesk,
-} from "next/font/google";
+import { Roboto, Bitcount, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 export const roboto = Roboto({
